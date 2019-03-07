@@ -1,0 +1,155 @@
+/* about */
+
+.aboutPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.aboutBanner{
+    width: 100%;
+    background-image: url('/Images/0e6b242bd10ecc644c33536a0758b8b1.jpg');
+    background-size: 100% 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutBanner h1{
+    font-size: 60px;
+    font-weight: bold;
+    width: 800px;
+    margin-bottom: 135px;
+    text-align: center;
+    color:#303030;
+} */
+.meet{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #404040
+}
+.meet h1{
+    text-align: center;
+}
+.whyUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    color: #404040;
+}
+.whyUs p{
+    text-align: center;
+    padding: 0px 100px 0px 100px;
+    color: #595959;
+    font-size: 25px;
+
+}
+.engeneers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.box1{
+    height: 450px;
+    width: 400px;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #404040;
+    
+}
+.codeBox img{
+    padding-top: 10px;
+    height: 390px;
+    width: 100%;;
+}
+.bio{
+    display: flex;
+    width: 100%;
+}
+.bio .text1 p{
+    font-size: 20px;
+}
+.bioLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bioLink i{
+    padding: 0px 10px 0px 10px;
+}
+
+/* learnmore */
+
+.learnMorePage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.learn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+.learnImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.learnImg img{
+    width: 100%;
+}
+.learnMore{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.learnText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 70px 20px 70px;
+}
+.learnText p{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    color: #595959;
+    font-size: 25px;
+    width: 100%;
+    /* text-shadow:1px 1px 2px #404040; */
+}
+.learnText img {
+    width: 300px;
+}
+.diagram{
+    width: 100%;
+    height: 450px;
+   background-color: rgb(240, 240, 240);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.diagram img{
+    height: 400px;
+    width: 80%;
+}
+

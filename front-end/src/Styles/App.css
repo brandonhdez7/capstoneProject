@@ -1,0 +1,44 @@
+
+.loginPage{
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 90vh;
+}
+.createAccountPage{
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+ 
+  height: 90vh;
+}
+  .container{
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
+
+  margin-top: 50px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 430px;
+  color: #404040
+}
+.card-title{
+  font-size: 30px;
+}
+.card-body{
+  font-size: 20px;
+}
+.card-body input{
+  height: 40px;
+  margin: 5px;
+  font-size: 20px;
+  width: 300px;
+}
+
+
+  
+

@@ -1,0 +1,247 @@
+/* contact */
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600);
+@import url(http://weloveiconfonts.com/api/?family=brandico|entypo);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  padding-right: 10px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.browser {
+  margin: 10px auto;
+  color: white;
+  width: 80%;
+  -webkit-box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 5px 15px rgba(231, 115, 115, 0.5);
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.browser-bar {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+}
+.browser-bar p {
+  text-align: center;
+  color: #404040;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.arrow {
+  position: absolute;
+  right: 3px;
+  top: 6px;
+  font-size: 1.2em;
+  color: #8e9699;
+}
+
+.content {
+    background-color: rgb(240, 240, 240);;
+    
+}
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content .left, .content .right {
+  height: 100%;
+}
+.content .left {
+  float: left;
+  width: 75%;
+  background: skyblue;
+}
+@media all and (max-width: 780px) {
+  .content .left {
+    width: 100%;
+  }
+}
+.content .left .map {
+  height: 400px;
+  position: relative;
+  background-image: url("http://f.cl.ly/items/452R3S1440221Z3m372j/israel.png");
+  background-size: cover;
+}
+.content .left .map p {
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+.content .left .map .zoom {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  width: 2px;
+  height: 70px;
+  background: white;
+}
+.content .left .map .zoom:before, .content .left .map .zoom:after {
+  text-align: center;
+  font-weight: 600;
+  position: absolute;
+  background: #404040;
+  width: 20px;
+}
+.content .left .map .zoom:before {
+  content: '+';
+  top: -10px;
+  right: -8px;
+}
+.content .left .map .zoom:after {
+  content: '-';
+  bottom: -10px;
+  right: -8px;
+}
+.content .left .map .map-locator {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  border: solid 2px white;
+}
+.content .left .map .map-locator:before {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 5px;
+}
+.content .left .map .map-locator .tooltip {
+  position: absolute;
+  color: #394141;
+  left: 50px;
+  top: -10px;
+  background: rgb(240, 240, 240);
+  font-size: 0.8em;
+  font-weight: 600;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.content .left .map .map-locator .tooltip:before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 14px;
+  border-right: solid white 10px;
+  border-top: solid transparent 8px;
+  border-bottom: solid transparent 8px;
+}
+.content .left .map .map-locator .tooltip [class*="entypo-"] {
+  min-width: 25px;
+  display: inline-block;
+  text-align: center;
+  border-right: solid thin #404040;
+  margin-right: 5px;
+}
+.content .left .map .map-locator .tooltip li {
+  border-bottom: solid thin #404040;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.content .left .map .map-locator .tooltip li:hover [class*="entypo-"] {
+  color: #51B2D6;
+}
+.content .left .location-bar {
+  background: rgb(240, 240, 240);
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  display: table;
+  color: #404040
+}
+
+.content .right {
+  float: left;
+  width: 25%;
+  background: rgb(245, 245, 245);;
+  font-size: 0.75em;
+  padding: 15px;
+}
+@media all and (max-width: 780px) {
+  .content .right {
+    width: 100%;
+  }
+}
+.content .right p {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #404040
+}
+.content .right a:hover {
+  color: #51B2D6;
+}
+.content .right .social {
+  display: table;
+  width: 100%;
+  color: #404040;
+}
+.content .right .social {
+  display: table-cell;
+  text-align: center;
+  color: #404040
+}
+.content .right form {
+  border-top: solid thin #404040;
+  border-bottom: solid thin #404040;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+.content .right form input,
+.content .right form textarea {
+  background: white;
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  color: #404040;
+}
+.content .right form input:last-of-type,
+.content .right form textarea:last-of-type {
+  margin-bottom: 0;
+}
+.content .right form input[type='submit'],
+.content .right form textarea[type='submit'] {
+  text-transform: uppercase;
+  background: skyblue;
+  width: 50%;
+  color: #404040;
+  margin-top: 5px;
+}
+.content .right form input[type='submit']:hover,
+.content .right form textarea[type='submit']:hover {
+  background: skyblue;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.content .right form input[type='textarea'],
+.content .right form textarea[type='textarea'] {
+  min-height: 75px;
+  vertical-align: text-top;
+}
+.content .right p.other {
+  font-size: 0.7;
+  margin-bottom: 5px;
+  text-transform: lowercase;
+  font-weight: 100;
+}
+.content .right p.other,
+.content .right p.other a {
+  color: #404040;
+}

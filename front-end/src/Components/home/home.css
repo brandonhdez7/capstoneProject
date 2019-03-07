@@ -1,0 +1,298 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #404040;
+}
+.navbar1{
+    display: none;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #404040;
+}
+
+.logo{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+}
+.navs{
+   margin-right: 20px;
+}
+.navs a{
+    color: #404040;
+    text-decoration: none;
+    padding: 0px 5px 0px 5px; 
+}
+.navs a:hover{
+    padding-bottom: 10px;
+    border-bottom: 4px solid skyblue;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+    padding-top: 30px;
+}
+.title p{
+    margin: 0px;
+    color: #595959;
+}
+.bannerText{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #404040;
+
+}
+.bannerText p{
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+
+}
+.bannerText h1{
+    margin: 0px;
+}
+.phone{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.phone img{
+    width: 450px;
+    z-index: 1;
+}
+.buttons{
+    position: relative;
+    top: 20px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.buttons button{
+    padding: 10px;
+    margin: 2px;
+    border:1px solid #595959;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #595959;
+    outline: none;
+    
+}
+.buttons button:hover{
+    border: 1px solid skyblue;
+    cursor: pointer;
+}
+.bannerDetails{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.description{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.box{
+    height: 250px;
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #404040;
+    
+}
+.box h1{
+    padding: 0px;
+    margin: 0px;
+}
+.box p{
+    text-align: center;
+    padding: 10px;
+    color: #595959;
+}
+
+.footer{
+    background-color: rgb(227, 227, 227);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.links{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: #595959;
+}
+.links a:hover{
+    border-bottom: 4px solid skyblue;
+    
+}
+.links1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.links1 i{
+    padding: 0px 10px 0px 10px;
+}
+
+
+/* home */
+.homePage{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+}
+.homeDescription{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.description1{
+    border: 2px solid #595959;
+    width: 60%;
+    height: 400px;
+}
+.cars{
+    width: 50%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.cars img{
+    width: 500px;
+    z-index: 1;
+}
+.cars button{
+    padding: 10px;
+    border:1px solid #595959;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #595959;
+    outline: none;
+}
+.cars button:hover{
+    border: 1px solid skyblue;
+    cursor: pointer;
+}
+.moreDescription{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+}
+.text1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #404040;
+}
+.text1 p{
+    width: 300px;
+    text-align: center;
+    font-size: 25px;
+    color: #595959;
+}
+.codeDescription{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+}
+.codeImg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 30px;
+}
+.codeBox{
+    width: 300px;
+    height: 400px;
+    background-image: white;
+    box-shadow: 2px 3px 20px 2px #595959; 
+}
+.homeDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
