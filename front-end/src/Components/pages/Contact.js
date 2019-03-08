@@ -9,7 +9,6 @@ class Contact extends Component{
                 <div className='browser'>
                     <div className='browser-bar'>
                         <p>Contact Us</p>
-                        <span className='arrow entypo-resize-full'></span>
                     </div>
                     <div className='content'>
                     <div className='left'>

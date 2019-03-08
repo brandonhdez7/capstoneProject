@@ -5,6 +5,7 @@ import { Field, reduxForm, reset } from 'redux-form';
 import '../Styles/App.css';
 import _ from 'lodash';
 import PostCard from '../Components/PostCard';
+
 import { getUser, logout } from '../Actions/UserActions';
 import Link from 'react-router-dom/es/Link';
 
@@ -14,11 +15,11 @@ class App extends Component {
       return (
         <PostCard key={key}>
           <Link to={`/${key}`}>
-            <h3 className="card-title">
+            <h3 className="cardTitle">
               {post.title}
             </h3>
           </Link>
-          <p className="card-text">
+          <p className="cardText">
             {post.body}
           </p>
           {post.uid === this.props.user.uid &&
@@ -41,51 +42,45 @@ class App extends Component {
   render() {
     const { handleSubmit } = this.props;
     return (
-      <div>
-      <div className="navbar">
-      {/*}
-        <div className="navbar1">
-                <div className="logo">
-                <img src="/Images/motherboard-icon-over-white-vector-17873129.png" alt=""/>
-                    <div className="navs">
-                        <Link to={"/"}>Home</Link>
-                        <Link to={"/LearnMore"}>Learn More</Link>
-                        <Link to={"/About"}>About</Link>
-                        <Link to={"/Contact"}>Contact</Link>
-                    </div>
-                </div>
-                <div className="navs">
-                  <div className="navbar">
-                      <button className="btn btn-danger" onClick={() => {this.props.logout();}}>Sign out</button>
-                  </div>
-                </div>
-    */}
-            {/* </div> */}
-           <button className="btn btn-danger" onClick={() => {this.props.logout();}}>Sign out</button>
-        </div>
-
-        <div className="container">
+      <div className="listPostPage">
+        <div className="container1">
           <div className="main">
+          <h1>Trends</h1>
             {this.renderPosts()}
           </div>
-          <div className="navbar fixed-bottom">
+          <div className="bottomForm">
             <form onSubmit={handleSubmit(this.onSubmit.bind(this))} className="footerForm">
               <Field
                 name="title"
                 component={this.renderField}
                 label="Title"
-                class="footer-title"
+                className="footer-title"
               />
               <Field
                 name="body"
                 component={this.renderField}
                 label="Body"
-                class="footer-body"
+                className="footer-body"
               />
-              <button type="submit" className="btn footer-button">Post</button>
+              <div className="buttons">
+                <button type="submit">Post</button>
+              </div>
             </form>
           </div>
         </div>
+        <div className="connectCar">
+           <button className="btn btn-danger" onClick={() => {this.props.logout();}}>Sign out</button>
+           <div className="loginRight">
+                <div className="cars1">
+                    <img src="/Images/adeept-smart-car-kit-for-arduino-remote-control-car-based-on-nrf24l01-2-4g-wireless--2037-500x500_0.png" alt=""/>
+                </div>
+              <div className="buttons">
+                  <button><Link to="/ConnectToCar">ConnectToCar</Link></button>
+              </div>
+            </div>
+        </div>
+
+        
       </div>
     );
   }

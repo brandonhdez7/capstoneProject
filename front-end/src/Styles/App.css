@@ -1,4 +1,6 @@
 
+/* create account and login */
+
 .loginPage{
   background-color: rgb(240, 240, 240);
   display: flex;
@@ -39,6 +41,104 @@
   width: 300px;
 }
 
+/* LoginHome */
 
-  
+.listPostPage{
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.container1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;  
+  flex-direction: column;
+}
+
+.postTitle{
+  font-size: 30px;
+  color: #404040;
+  text-decoration: none;
+
+}
+.cardTitle{
+  font-size: 30px;
+  color: #404040;
+  text-decoration: none;
+}
+
+.cardText{
+  font-size: 20px;
+  color: #404040;
+  text-decoration: none;
+}
+.postBody{
+  font-size: 20px;
+  color: #404040;
+  text-decoration: none;
+}
+
+.loginRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cars{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cars img{
+  width: 400px;
+  z-index: 1;
+}
+
+.connectCar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
+}
+
+.card-block{
+  margin-top: 15px;
+}
+
+form input{
+  height: 40px;
+  font-size: 15px;
+  width: 200px;
+  outline: none;
+}
+
+
+/* connectToCarPage */
+
+.connectToCarPage{
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+iframe{
+  width: 90%;
+  height: 70%;
+  background-color: #404040;
+}
+.carButtons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 

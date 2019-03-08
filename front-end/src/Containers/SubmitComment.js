@@ -31,7 +31,9 @@ class SubmitComment extends Component {
           component={this.commentComponent}
           validate={required}
         />
-        <button type="submit" className="btn btn-success btn-small mt-1">Save</button>
+        <div className="buttons">
+        <button type="submit" >Save</button>
+        </div>
       </form>
     );
   }

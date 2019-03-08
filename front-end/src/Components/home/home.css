@@ -69,13 +69,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 350px;
     text-align: center;
     padding-top: 30px;
+}
+.title h1{
+    font-size: 40px;
+    margin: 5px;
+    
 }
 .title p{
     margin: 0px;
     color: #595959;
+    width: 300px
 }
 .bannerText{
     width: 50%;

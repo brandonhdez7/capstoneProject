@@ -7,6 +7,7 @@ import About from './Components/pages/About';
 import Contact from './Components/pages/Contact'; 
 import LearnMore from './Components/pages/LearnMore';
 import ListPosts from './Containers/ListPosts';
+import ConnectToCar from './Containers/ConnectToCar'
 import registerServiceWorker from './registerServiceWorker';
 import { applyMiddleware, createStore } from 'redux';
 import thunk from 'redux-thunk';
@@ -71,6 +72,7 @@ ReactDOM.render(
           <Route exact path = "/About" component={About} />
           <Route exact path = "/Contact" component={Contact} />
           <Route exact path = "/LearnMore" component={LearnMore} />
+            <Route exact path="/ConnectToCar" component={ConnectToCar} />
           <AuthenticatedComponent>
             <Route exact path="/:id" component={PostDetail}/>
             <Route exact path="/" component={ListPosts}/>

@@ -1,12 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import LearnMore from '../pages/LearnMore'
 import { BrowserRouter as Router } from 'react-router-dom';
 // import LearnMore from '../pages/LearnMore'
 import { login, getUser, googleLogin } from '../../Actions/UserActions';
 import { connect } from 'react-redux';
 
 function Banner(props){
-    const { googleLogin } = props;
+    const { googleLogin, LearnMore } = props;
     return (
         <Router>
             <div className="banner">
@@ -16,10 +17,10 @@ function Banner(props){
                         tira-pari achicopalar. </p>
                 </div>
                 <div className="buttons">
-                        <button type="button" onClick={googleLogin}>
-                            Sign in with Google
+                        <button type="button" onClick={googleLogin}> 
+                        <span className="fab fa-google"/> Sign in with Google
                         </button>
-                        <button><Link to="/LearnMore"></Link>Learn More</button>
+                        <Link to="/LearnMore"><button type="button" onClick={LearnMore}>Learn More</button></Link>
                 </div>
                 <div className="bannerDetails">
                     <div className="cars">
@@ -43,4 +44,4 @@ function mapStateToProps(state, ownProps) {
   }
 
   
-  export default connect(mapStateToProps, { login, getUser, googleLogin})(Banner);
+  export default connect(mapStateToProps, { login, getUser, googleLogin, LearnMore})(Banner);

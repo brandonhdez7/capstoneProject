@@ -5,7 +5,7 @@
 @import url(http://weloveiconfonts.com/api/?family=brandico|entypo);
 /* entypo */
 [class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
+  font-family: 'entypo';
   padding-right: 10px;
 }
 

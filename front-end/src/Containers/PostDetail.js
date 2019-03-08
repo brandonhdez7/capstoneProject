@@ -27,10 +27,10 @@ class PostDetail extends Component {
             Go home
           </Link>
         </div>
-        <div className="container">
+        <div className="container1">
           <PostCard>
-            <h1 className="post-title">{post.title}</h1>
-            <p className="post-body">{post.body}</p>
+            <h1 className="postTitle">{post.title}</h1>
+            <p className="postBody">{post.body}</p>
             <SubmitComment id={match.params.id}/>
           </PostCard>
           {this.renderComments()}

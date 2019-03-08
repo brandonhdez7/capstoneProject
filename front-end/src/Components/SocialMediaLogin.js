@@ -5,10 +5,10 @@ const SocialMediaLogin = (props) => {
   return (
     <div className="buttons">
       <button type="button" className="buttons" onClick={googleLogin}>
-        <span className="fa fa-google"/> Sign in with Google
+        <span className="fab fa-google"/> Sign in with Google
       </button>
       <button type="button" className="buttons" onClick={twitterLogin}>
-        <span className="fa fa-twitter"/> Sign in with Twitter
+        <span className="fab fa-twitter"/> Sign in with Twitter
       </button>
     </div>
   );
