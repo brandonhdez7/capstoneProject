@@ -75,7 +75,7 @@ class App extends Component {
                     <img src="/Images/adeept-smart-car-kit-for-arduino-remote-control-car-based-on-nrf24l01-2-4g-wireless--2037-500x500_0.png" alt=""/>
                 </div>
               <div className="buttons">
-                  <button><Link to="/ConnectToCar">ConnectToCar</Link></button>
+                  <button><Link to="/ConnectToCar">Connect</Link></button>
               </div>
             </div>
         </div>

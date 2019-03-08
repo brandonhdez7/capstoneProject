@@ -12,12 +12,24 @@ class ConnectToCar extends Component{
                         </iframe>
                
                     <div className="carButtons">
-                        <button>Foward</button>
-                        <div>
-                            <button>Left</button>
-                            <button>Right</button> 
-                        </div> 
-                        <button>Backward</button>
+                        <div className="left1">
+
+                                <button>Up</button>
+                             <div>
+                                <button>Left</button>
+                                <button>Right</button> 
+                            </div> 
+                            <button>Down</button>
+                        </div>
+                        <div className="right1">
+                            <button>Foward</button>
+                            <div>
+                                <button>Left</button>
+                                <button>Right</button> 
+                            </div> 
+                            <button>Backward</button>
+                        </div>
+
                     </div>
 
 

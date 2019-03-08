@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux'
-import { logout } from '../Actions/UserActions';
+import { getUser, logout } from '../Actions/UserActions';
 import ReactDOM from 'react-dom';
 import Home from './home/Home'
 import About from './pages/About';
@@ -60,7 +60,7 @@ class Main extends Component {
                             : null}
                         
                         
-                        {this.state.userLoggedIn ? <button className="btn tn-danger" onClick={() => { logout(); }}>Sign out</button>
+                        {this.state.userLoggedIn ? <button className="btn btn-danger" onClick={() => {this.props.logout();}}>Sign out</button>
                             : null}
                     </div>
                 </div>
@@ -98,7 +98,7 @@ class Main extends Component {
     }
 }
 const mapStateToProps = (state) => {
-    return { user: state.user }
+    return { user: state.user}
 }
 
-export default connect(mapStateToProps, logout) (Main);
+export default connect(mapStateToProps) (Main);
