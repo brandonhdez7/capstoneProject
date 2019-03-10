@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Banner from '../Components/banner/Banner'
 
 
 class ConnectToCar extends Component{
@@ -10,11 +9,11 @@ class ConnectToCar extends Component{
                         <iframe>
 
                         </iframe>
-               
                     <div className="carButtons">
                         <div className="left1">
 
-                                <button>Up</button>
+                                <button>Up</button> 
+                                
                              <div>
                                 <button>Left</button>
                                 <button>Right</button> 
