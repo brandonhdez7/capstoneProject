@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Banner from '../Components/banner/Banner'
-import socket from '../utility/socketConnection'
+import socket from '../utility/socketConnection';
+import ReactPlayer from 'react-player'
 
 
 class ConnectToCar extends Component{
@@ -15,11 +16,19 @@ class ConnectToCar extends Component{
             socket.emit('stop')
         } else if (event.keyCode === 39){
             socket.emit('stop')
+        } else if (event.keyCode === 68){
+            socket.emit('servoStop')
+        } else if (event.keyCode === 65){
+            socket.emit('servoStop')
+        } else if (event.keyCode === 87){
+            socket.emit('servoStop')
+        } else if (event.keyCode === 83){
+            socket.emit('servoStop')
         }
     }
-
+q
     checkKeyDown = (event) => {
-
+        console.log(event.keyCode)
         if (event.keyCode === 38){
             socket.emit('forward')
         } else if (event.keyCode === 40) {
@@ -28,6 +37,16 @@ class ConnectToCar extends Component{
             socket.emit('left')
         } else if (event.keyCode === 39){
             socket.emit('right')
+        } else if (event.keyCode === 68){
+            socket.emit('servoRight')
+        } else if (event.keyCode === 65){
+            socket.emit('servoLeft')
+        } else if (event.keyCode === 81){
+            socket.emit('servoHome')
+        } else if (event.keyCode === 87){
+            socket.emit('servoUp')
+        } else if (event.keyCode === 83){
+            socket.emit('servoDown')
         }
     }
 
@@ -45,9 +64,9 @@ class ConnectToCar extends Component{
         return(  
                 <div className="connectToCarPage">
                  
-                        <iframe>
-
-                        </iframe>
+                        {/* <iframe> */}
+                            <ReactPlayer url='http://raspberrypi.local:8080/stream_simple.html' playing />
+                        {/* </iframe> */}
                
                     <div className="carButtons">
                         <div className="left1">
@@ -70,7 +89,7 @@ class ConnectToCar extends Component{
 
                     </div>
 
-                    <script src="http://10.150.41.121:8000/socket.io/socket.io.js"></script>
+                    <script src="http://10.150.41.124:8000/socket.io/socket.io.js"></script>
                 </div>   
         )
     }
