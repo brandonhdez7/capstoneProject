@@ -20,8 +20,10 @@ function MoreDescription(props){
             <div className="codeDescription">
                 <div className="codeImg">
                     <div className="codeBox">
-                        <p></p>
-                    </div>
+                        
+                            
+                        <img src="/Images/codeSnapshot.png" alt="" />
+                    </div> 
                 </div>
                 <div className="text1">
                     <p>mamón menso. tumbado del burro cateado. cuacha que tijera. chivearse panzona. 

@@ -13,8 +13,7 @@ function Banner(props){
             <div className="banner">
                 <div className="title">
                     <h1>The Roaming Hobo</h1>
-                    <p>ahí nomás como la chingada. cae de a madre zotaco. 
-                        tira-pari achicopalar. </p>
+                    <p> </p>
                 </div>
                 <div className="buttons">
                         <button type="button" onClick={googleLogin}> 
@@ -27,11 +26,10 @@ function Banner(props){
                         <img src="/Images/adeept-smart-car-kit-for-arduino-remote-control-car-based-on-nrf24l01-2-4g-wireless--2037-500x500_0.png" alt=""/>
                     </div>
                     <div className="bannerText">
-                        <h1>Web Responsive App</h1>
-                        <p>mamón menso. tumbado del burro cateado. cuacha que tijera. chivearse panzona. 
-                            cheve ése. putazo chacuaco. chichi agasajo.
-                            cajeado mañoso. wacha chota. ahí nomás como la chingada. cae de a madre zotaco. 
-                            </p>
+                        <h1>Robotic RC Car App</h1>
+                        <p>The Roaming Hobo app gives you the ability to power and control your builded Raspberry pi rc car. 
+                         A community of enthusiast are be able to share posts and comments in other to help one another. 
+                        </p>
                     </div>
 
                 </div>
