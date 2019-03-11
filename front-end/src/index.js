@@ -22,7 +22,6 @@ import PostDetail from './Containers/PostDetail';
 import './Styles/App.css'
 import './Components/home/home.css'
 import { getUser, logout } from './Actions/UserActions';
-import socket from './Utility/socketConnection';
 
 const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
 

@@ -217,3 +217,10 @@ iframe{
   margin-right: 50px;
 }
 
+.left-arrow{
+  padding-right: 20px;
+}
+.right-arrow{
+  padding-left: 20px;
+}
+
