@@ -103,6 +103,11 @@
     padding: 0px 10px 0px 10px;
 }
 
+.bioLink a{
+    text-decoration: none;
+    color: #404040
+}
+
 /* learnmore */
 
 .learnMorePage{
