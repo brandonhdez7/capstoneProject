@@ -30,6 +30,7 @@ class ConnectToCar extends Component{
     checkKeyDown = (event) => {
         console.log(event.keyCode)
         if (event.keyCode === 38){
+            console.log('up')
             socket.emit('forward')
         } else if (event.keyCode === 40) {
             socket.emit('backward')
@@ -63,16 +64,12 @@ class ConnectToCar extends Component{
     render(){
         return(  
                 <div className="connectToCarPage">
-                 
-                        {/* <iframe> */}
-                            <ReactPlayer url='http://raspberrypi.local:8080/stream_simple.html' playing />
-                        {/* </iframe> */}
-               
+                    <div className='cameraFeed'>
+                        <img src="http://10.150.41.124:8080/?action=stream"/>
+                        </div>
                     <div className="carButtons">
                         <div className="left1">
-
-                                <button>Up</button> 
-                                
+                                <button className="forward">Up</button>
                              <div>
                                 <button>Left</button>
                                 <button>Right</button> 
