@@ -29,7 +29,7 @@ function Engeneers(props){
             </div>
             <div className="codeImg">
                 <div className="codeBox1">
-                    <img src="./Images/FullSizeRender4.png" alt=""/>
+                    <img src="./Images/hg_50.jpg" alt=""/>
                 </div>
             </div>
         </div>
