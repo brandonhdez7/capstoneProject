@@ -48,7 +48,7 @@ function Engeneers(props){
                   I enjoy solving problems and turning them into simple solutions. 
                   I am passionate about detail design. I love making clean user friendly experiences.
             </p>
-            <div class="bioLink">
+            <div className="bioLink">
                 <a href="http://brandonhdez.com/" target="_blank"><i className="fas fa-globe fa-3x"></i></a>
                 <a href="https://github.com/brandonhdez7" target="_blank"><i className="fab fa-github fa-3x"></i></a>
                 <a href="https://www.linkedin.com/in/brandon-hernandez-34254b175/" target="_blank"><i className="fab fa-linkedin-in fa-3x"></i></a>
