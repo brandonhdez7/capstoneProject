@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Banner from '../Components/banner/Banner'
-import socket from '../utility/socketConnection';
+import socket from '../Utility/socketConnection'
 import ReactPlayer from 'react-player'
 
 
@@ -64,6 +64,11 @@ class ConnectToCar extends Component{
     render(){
         return(  
                 <div className="connectToCarPage">
+                 
+                        {/* <iframe> */}
+                            <ReactPlayer url='http://raspberrypi.local:8080/stream_simple.html' playing />
+                        {/* </iframe> */}
+               
                     <div className='cameraFeed'>
                         <img src="http://10.150.41.124:8080/?action=stream"/>
                         </div>
@@ -77,7 +82,7 @@ class ConnectToCar extends Component{
                             <button>Down</button>
                         </div>
                         <div className="right1">
-                            <button>Foward</button>
+                            <button>Forward</button>
                             <div>
                                 <button>Left</button>
                                 <button>Right</button> 
