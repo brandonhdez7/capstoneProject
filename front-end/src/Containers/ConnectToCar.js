@@ -64,11 +64,6 @@ class ConnectToCar extends Component{
     render(){
         return(  
                 <div className="connectToCarPage">
-                 
-                        {/* <iframe> */}
-                            <ReactPlayer url='http://raspberrypi.local:8080/stream_simple.html' playing />
-                        {/* </iframe> */}
-               
                     <div className='cameraFeed'>
                         <img src="http://10.150.41.124:8080/?action=stream"/>
                         </div>
