@@ -70,9 +70,21 @@
     color: #404040;
     
 }
-.codeBox img{
-    padding-top: 10px;
+/* .codeBox img{
     height: 390px;
+    width: 100%;;
+} */
+.codeBox1{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 2px 3px 20px 2px #595959; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.codeBox1 img{
+    height: 400px;
     width: 100%;;
 }
 .bio{
