@@ -13,40 +13,38 @@ class LearnMore extends Component{
              <div className="learnMorePage">    
             <div className="learn">
                 <div className="learnImg">
-                    <img src="/Images/car1.png" />
-                </div>
-                <div className="learnImg">
-                    <img src="/Images/images.png" />
-                </div>
-                <div className="learnImg">
-                    <img src="/Images/app-mockup-2.png" />
+                    <h1>Learn More</h1>
                 </div>
             </div>
             <div className="learnMore">
                 <div className="learnText">
-                <p>Bote fuchi. popis zorrear. churido el otro lado. plomazo talonear. 
-                    birote tracalero. mamado curiosito. bote chimuelo. petateado niguas. 
-                    chiqueón arrastrando la cobija. como camote popis. teporocho choteado. 
-                    vagaciones cuachalote. despapaye huerco. güey la migra. piocha chapucero. 
-                    valemadrista jambar. presumido al tiro. gato volador mayativo. coyote lambiscón. chinga gacho. 
-                    rollo lambiscón. grifo pachanga. 
-                    charolastra ahí muere. talonear chante. bofeado quemacocos. tracalero fumigado. 
-                    poca madre volado. guacarear fayuquero. pingas feliz como una lombriz.
+                <p>Use your raspberry pi to control your RC car via The Roaming Hobo hosted wirelessly on your PI.
+                     All you need to do is set up your PI to use your wifi as a hotspot then login
+                    to the website to control your car like a Wii Remote. 
+                    Any car will do but if you are buying one try and get one 
+                     with enough space under the bodyshell to fit all your electronics.
+                     <br />
+                     <br />
+                     You're able to control the PiCar from this web interface with the keyboard. You can move the car 
+                     and steer with WASD, as well as move the head/camera independently.
                     </p>
                     <img src="/Images/Raspberry-Pi-3-1-1619x1080.png" />
                 </div>
                 <div className="diagram">
-                    <img src="/Images/Arduino-Robot-Car-HC-05-Bluetooth-Control-Circuit-Schematic.png"/>
+                    <img src="/Images/F0WNLJJIFR692C6.LARGE.jpg"/>
+                    <img src="/Images/F1019UWIFR691T9.LARGE.jpg"/>
                 </div>
 
                 <div className="learnText">
                     <img src="/Images/maxresdefault.jpg" />
-                    <p>Jale churido. carrilludo rollero. el otro lado yonque. lépero julia. 
-                    tambo petateado. diste al clavo agasajo. puñal pingas. alivianar yonque. 
-                    cotorreo vieja. cachirul aventado. chulear tambo. aló cacharpa. cagar el palo dos-tres.
-                     híjole lisa. chupete mochada. pacha ridículum. fayuca naifa. barajeamela más despacio panzona. 
-                     ése hace al loco. tiliche ruco. chivas camotes. gato volador comadrear. chavalo mitote. encuerado enchilado. 
-                     conchudo cotorreo. la mera mata guacha. camotes simón. zafado lonche. hasta el gorro ahí nomás.</p>
+                    <p>Servos are extremely useful in practice. They may be used to operate remote-controlled toy cars, robots, or airplanes. 
+                    Servos are also used in industrial applications, robotics, in-line manufacturing, pharmaceutics, and food services.
+                    <br />
+                    <br />
+                    Install the Raspberry Pi Camera module by inserting the cable into the Raspberry Pi. The cable slots into the connector 
+                    situated between the Ethernet and HDMI ports, with the silver connectors facing the HDMI port.    
+                    </p>
+                    
                 </div>
             </div>
 
