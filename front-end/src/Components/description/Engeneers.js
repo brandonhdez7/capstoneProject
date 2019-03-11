@@ -27,15 +27,9 @@ function Engeneers(props){
 
                 
             </div>
-<<<<<<< HEAD
-            <div class="codeImg">
-                <div className="codeBox">
-                    <img src="./Images/hg_50.jpg" alt=""/>
-=======
             <div className="codeImg">
                 <div className="codeBox1">
                     <img src="./Images/FullSizeRender4.png" alt=""/>
->>>>>>> master
                 </div>
             </div>
         </div>
