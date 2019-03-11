@@ -63,8 +63,11 @@ class ConnectToCar extends Component{
     render(){
         return(  
                 <div className="connectToCarPage">
+                    {/* <div className="ps4Controller">
+                        <img src="/Images/ps4_controller.png" />
+                    </div> */}
                     <div className='cameraFeed'>
-                        <img src="http://10.150.41.124:8080/?action=stream"/>
+                        <img src="http://192.168.4.1:8080/?action=stream"/>
                         </div>
                     <div className="carButtons">
                         <div className="left1">
@@ -87,7 +90,7 @@ class ConnectToCar extends Component{
 
                     </div>
 
-                    <script src="http://10.150.41.124:8000/socket.io/socket.io.js"></script>
+                    <script src="http://192.168.4.1:8000/socket.io/socket.io.js"></script>
                 </div>   
         )
     }
