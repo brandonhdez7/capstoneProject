@@ -26,7 +26,7 @@ class ConnectToCar extends Component{
             socket.emit('servoStop')
         }
     }
-q
+
     checkKeyDown = (event) => {
         console.log(event.keyCode)
         if (event.keyCode === 38){
