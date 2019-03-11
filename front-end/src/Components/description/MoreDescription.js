@@ -7,9 +7,9 @@ function MoreDescription(props){
             <div className="moreDescription">
                 <div className="text1">
                     <h1>Web Responsive App</h1>
-                    <p>mamón menso. tumbado del burro cateado. cuacha que tijera. chivearse panzona. 
-                        cheve ése. putazo chacuaco. chichi agasajo.
-                         cajeado mañoso. wacha chota. ahí nomás como la chingada. cae de a madre zotaco. 
+                    <p>The Roaming Hobo is web-responsive so you can use your PI car on the go.
+                        you will still need to ssh to raspberry in your settings. Everything can be done by using
+                        the raspberry hotspot.
                     </p>
                 </div>
                 <div className="phone">
@@ -26,9 +26,8 @@ function MoreDescription(props){
                     </div> 
                 </div>
                 <div className="text1">
-                    <p>mamón menso. tumbado del burro cateado. cuacha que tijera. chivearse panzona. 
-                        cheve ése. putazo chacuaco. chichi agasajo.
-                         cajeado mañoso. wacha chota. ahí nomás como la chingada. cae de a madre zotaco. </p>
+                    <p>Setting up your RC car couldn't be more easy with our help.
+                         You're able to modified your directionals with our Javascript code as simple as just copying and pasting. </p>
                 </div>
             </div>
         </div>

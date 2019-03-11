@@ -9,7 +9,7 @@
 }
 .aboutBanner{
     width: 100%;
-    background-image: url('/Images/0e6b242bd10ecc644c33536a0758b8b1.jpg');
+    background-image: url('/Images/0e6b242bd10ecc644c33536a0758b8b1.jpeg');
     background-size: 100% 100%;
     height: 500px;
     display: flex;
@@ -111,10 +111,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-}
-.learnImg img{
     width: 100%;
+    height: 300px;
+    background-image: url("/Images/980x240-herobanner-raspberrypi.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.learnImg h1{
+   position: relative;
+   right: 230px;
+   font-size: 50px;
+   color: #404040
 }
 .learnMore{
     width: 100%;
@@ -149,7 +156,7 @@
    align-items: center;
 }
 .diagram img{
-    height: 400px;
-    width: 80%;
+    height: 450px;
+    width: 50%;
 }
 

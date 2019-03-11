@@ -83,6 +83,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
 }
 .profileImg img{
   border: 2px solid #404040;
@@ -103,6 +104,7 @@
   flex-direction: column;
   background: white;
   height: max-content;
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
 }
 .main{
   display: flex;
@@ -111,6 +113,7 @@
   width: 100%;
   padding-left: 50px;
   padding-right: 50px;
+
 }
 
 .postTitle{
@@ -164,6 +167,7 @@
   flex-direction: column;
   background-color: white;
   height: 400px;
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .card-block{
