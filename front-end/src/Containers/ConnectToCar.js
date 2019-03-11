@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Banner from '../Components/banner/Banner'
-import socket from '../Utility/socketConnection'
-import ReactPlayer from 'react-player'
+import socket from '../utility/socketConnection'
 
 
 class ConnectToCar extends Component{
@@ -69,20 +68,21 @@ class ConnectToCar extends Component{
                         </div>
                     <div className="carButtons">
                         <div className="left1">
-                                <button className="forward">Up</button>
+                            <i className="fas fa-chevron-circle-up fa-3x"></i>
                              <div>
-                                <button>Left</button>
-                                <button>Right</button> 
+                                <i className="left-arrow fas fa-chevron-circle-left fa-3x"></i>
+                                <i className="right-arrow fas fa-chevron-circle-right fa-3x"></i>
                             </div> 
-                            <button>Down</button>
+                            <i className="fas fa-chevron-circle-down fa-3x"></i>
                         </div>
                         <div className="right1">
-                            <button>Forward</button>
+                            <i className="far fa-arrow-alt-circle-up fa-3x"></i>
+                            
                             <div>
-                                <button>Left</button>
-                                <button>Right</button> 
+                                <i className="left-arrow far fa-arrow-alt-circle-left fa-3x"></i>
+                                <i className="right-arrow far fa-arrow-alt-circle-right fa-3x"></i>
                             </div> 
-                            <button>Backward</button>
+                            <i className="far fa-arrow-alt-circle-down fa-3x"></i>
                         </div>
 
                     </div>
