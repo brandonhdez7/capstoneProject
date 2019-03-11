@@ -43,11 +43,12 @@ class App extends Component {
     const { handleSubmit } = this.props;
     return (
       <div className="listPostPage">
+      <div className="profileInfo">
+      <div className="profileImg">
+      <img src="/Images/FullSizeRender4.png" alt="" />
+      </div>
+      </div>
         <div className="container1">
-          <div className="main">
-          <h1>Trends</h1>
-            {this.renderPosts()}
-          </div>
           <div className="bottomForm">
             <form onSubmit={handleSubmit(this.onSubmit.bind(this))} className="footerForm">
               <Field
@@ -63,13 +64,19 @@ class App extends Component {
                 className="footer-body"
               />
               <div className="buttons">
-                <button type="submit">Post</button>
+                <button  type="submit">Post</button>
               </div>
             </form>
           </div>
+          <div className="main">
+          <h1>Trends</h1>
+            {this.renderPosts()}
+          </div>
         </div>
         <div className="connectCar">
-           <button className="btn btn-danger" onClick={() => {this.props.logout();}}>Sign out</button>
+        <div className="buttons1">
+           <button  onClick={() => {this.props.logout();}}>Sign out</button>
+          </div>
            <div className="loginRight">
                 <div className="cars1">
                     <img src="/Images/adeept-smart-car-kit-for-arduino-remote-control-car-based-on-nrf24l01-2-4g-wireless--2037-500x500_0.png" alt=""/>

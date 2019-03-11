@@ -59,9 +59,9 @@ class Main extends Component {
                         {!this.state.userLoggedIn ? <Link to={"/Login"}>Login</Link>
                             : null}
                         
-                        
+{/*                         
                         {this.state.userLoggedIn ? <button className="btn btn-danger" onClick={() => {this.props.logout();}}>Sign out</button>
-                            : null}
+                            : null} */}
                     </div>
                 </div>
                 {/* <div className="navbar1">
