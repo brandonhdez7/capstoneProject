@@ -143,12 +143,8 @@ class ConnectToCar extends Component{
                         <img src="/Images/ps4_controller.png" />
                     </div> */}
                     <div className='cameraFeed'>
-<<<<<<< HEAD
-                        <img src="http://10.150.10.234:8080/?action=stream"/>
-=======
                         <img src="http://10.150.50.100:8080/?action=stream"/>
->>>>>>> 9554ee49b0fa7a3801efebdf7100bf9b38d652df
-                        </div>
+                    </div>
                     <div className="carButtons">
                         <div className="left1">
                             <i style={this.state.camUp} className="fas fa-chevron-circle-up fa-3x"></i>
@@ -168,12 +164,7 @@ class ConnectToCar extends Component{
                         </div>
 
                     </div>
-
-<<<<<<< HEAD
-                    <script src="http://10.150.10.234:8000/socket.io/socket.io.js"></script>
-=======
                     <script src="http://10.150.50.100:8000/socket.io/socket.io.js"></script>
->>>>>>> 9554ee49b0fa7a3801efebdf7100bf9b38d652df
                 </div>   
         )
     }
