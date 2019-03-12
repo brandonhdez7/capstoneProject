@@ -61,7 +61,7 @@
   color: #595959;
   outline: none;
   position: relative;
-  bottom: 115px;
+  bottom: 90px;
   left: 20px
   
 }
@@ -100,7 +100,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60%;  
+  width: 70%;  
   flex-direction: column;
   background: white;
   height: max-content;
@@ -146,6 +146,9 @@
   justify-content: center;
   align-items: center;
 }
+.loginRight h1{
+   margin: 0px;
+}
 .cars1{
   width: 100%;
   display: flex;
@@ -163,7 +166,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20%;
+  width: 30%;
   flex-direction: column;
   background-color: white;
   height: 400px;
@@ -232,13 +235,13 @@ iframe{
 .right-arrow{
   margin-left: 25px;
 }
-.fas {
+.carButton1 {
   /* border: 1px solid black; */
   border-radius: 50%;
   box-shadow: 0px 0px 10px 0px;
   border: 1px solid rgb(77, 76, 76);
 }
-.far {
+.carButton1 {
   border-radius: 50%;
   box-shadow: 0px 0px 10px 0px;
   border: 1px solid rgb(77, 76, 76);  

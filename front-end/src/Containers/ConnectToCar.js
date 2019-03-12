@@ -143,37 +143,29 @@ class ConnectToCar extends Component{
                         <img src="/Images/ps4_controller.png" />
                     </div> */}
                     <div className='cameraFeed'>
-<<<<<<< HEAD
-                        <img src="http://10.150.10.234:8080/?action=stream"/>
-=======
-                        <img src="http://10.150.50.100:8080/?action=stream"/>
->>>>>>> 9554ee49b0fa7a3801efebdf7100bf9b38d652df
+                        <img src="http://10.150.10.193:8080/?action=stream"/>
                         </div>
                     <div className="carButtons">
                         <div className="left1">
-                            <i style={this.state.camUp} className="fas fa-chevron-circle-up fa-3x"></i>
+                            <i style={this.state.camUp} className="carButton1 fas fa-chevron-circle-up fa-3x"></i>
                              <div>
-                                <i style={this.state.camLeft} className="left-arrow fas fa-chevron-circle-left fa-3x"></i>
-                                <i style={this.state.camRight} className="right-arrow fas fa-chevron-circle-right fa-3x"></i>
+                                <i style={this.state.camLeft} className="carButton1 left-arrow fas fa-chevron-circle-left fa-3x"></i>
+                                <i style={this.state.camRight} className="carButton1 right-arrow fas fa-chevron-circle-right fa-3x"></i>
                             </div> 
-                            <i style={this.state.camDown} className="fas fa-chevron-circle-down fa-3x"></i>
+                            <i style={this.state.camDown} className="carButton1 fas fa-chevron-circle-down fa-3x"></i>
                         </div>
                         <div className="right1">
-                            <i style={this.state.carUp} className="far fa-arrow-alt-circle-up fa-3x"></i>
+                            <i style={this.state.carUp} className="carButton1 far fa-arrow-alt-circle-up fa-3x"></i>
                             <div>
-                                <i style={this.state.carLeft}  className="left-arrow far fa-arrow-alt-circle-left fa-3x"></i>
-                                <i style={this.state.carRight} className="right-arrow far fa-arrow-alt-circle-right fa-3x"></i>
+                                <i style={this.state.carLeft}  className="carButton1 left-arrow far fa-arrow-alt-circle-left fa-3x"></i>
+                                <i style={this.state.carRight} className="carButton1 right-arrow far fa-arrow-alt-circle-right fa-3x"></i>
                             </div> 
-                            <i style={this.state.carDown} className="far fa-arrow-alt-circle-down fa-3x"></i>
+                            <i style={this.state.carDown} className="carButton1 far fa-arrow-alt-circle-down fa-3x"></i>
                         </div>
 
                     </div>
 
-<<<<<<< HEAD
-                    <script src="http://10.150.10.234:8000/socket.io/socket.io.js"></script>
-=======
-                    <script src="http://10.150.50.100:8000/socket.io/socket.io.js"></script>
->>>>>>> 9554ee49b0fa7a3801efebdf7100bf9b38d652df
+                    <script src="http://10.150.10.193:8000/socket.io/socket.io.js"></script>
                 </div>   
         )
     }

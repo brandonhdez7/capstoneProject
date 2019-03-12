@@ -43,11 +43,11 @@ class App extends Component {
     const { handleSubmit } = this.props;
     return (
       <div className="listPostPage">
-      <div className="profileInfo">
-      <div className="profileImg">
-      <img src="/Images/FullSizeRender4.png" alt="" />
-      </div>
-      </div>
+      {/* <div className="profileInfo">
+        <div className="profileImg">
+          <img src="/Images/FullSizeRender4.png" alt="" />
+        </div>
+      </div> */}
         <div className="container1">
           <div className="bottomForm">
             <form onSubmit={handleSubmit(this.onSubmit.bind(this))} className="footerForm">
@@ -78,6 +78,7 @@ class App extends Component {
            <button  onClick={() => {this.props.logout();}}>Sign out</button>
           </div>
            <div className="loginRight">
+           <h1>Connect To RC car</h1>
                 <div className="cars1">
                     <img src="/Images/adeept-smart-car-kit-for-arduino-remote-control-car-based-on-nrf24l01-2-4g-wireless--2037-500x500_0.png" alt=""/>
                 </div>
