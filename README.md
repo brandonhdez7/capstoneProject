@@ -52,4 +52,3 @@ It's controlled by the "QWASD" keys:
 * Brandon Hernandez
 * Brian Lafuente
 * Khanh Vu
-
