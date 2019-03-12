@@ -24,11 +24,13 @@ class Contact extends Component{
                             <li>
                                 <span className='entypo-mail'></span>
                                 <p>brandonhdez7@gmail.com</p>
+                                <p>kqvu09@gmail.com</p>
+                                <p>blafuente11@gmail.com</p>
                             </li>
-                            <li>
+                            {/* <li>
                                 <span className='entypo-phone'></span>
                                 <p>(678) 773-7241</p>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
@@ -50,8 +52,8 @@ class Contact extends Component{
                 <p className='social'>
                     <span className='entypo-linkedin'></span>
                 </p>
-                <p class='social'>
-                    <span class='entypo-gplus'></span>
+                <p className='social'>
+                    <span className='entypo-gplus'></span>
                 </p>
                 <p className='social'>
                     <span className='entypo-instagrem'></span>
@@ -65,10 +67,12 @@ class Contact extends Component{
             <input placeholder='Send' type='submit' />
         </form>
             <p>other way</p>
-            <p className='other'>
+            <div className='other'>
                 <p>brandonhdez7@gmail.com</p>
-            </p>
-            <p className='other '>(678) 773-7241</p>
+                <p>kqvu09@gmai.com</p>
+                <p>blafuente11@gmail.com</p>
+            </div>
+            {/* <p className='other '>(678) 773-7241</p> */}
     </div>
   </div>
 </div>
