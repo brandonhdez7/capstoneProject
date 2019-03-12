@@ -1,6 +1,9 @@
 # Title: The Roaming Hobo
 
-
+The Roamning Hobo is a website application that allows the user to 
+remotely control a model car. Movement of the car would be controlled 
+from the phyiscal buttons on the keyboard and also the camera mount can be controlled
+via keyboard buttons. 
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
