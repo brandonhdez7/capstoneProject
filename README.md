@@ -34,32 +34,6 @@ Give an example
 # Deployment
 Add additional notes about how to deploy this on a live system
 
-When UP arrow/button is pressed:
-All four(4) wheels move in forward direction
->> 	>>	Forward direction --->
-
->>	>>	(Front of Car)
-
-DOWN / BACK arrow/button is pressed:
-All four(4) wheels move in reverse direction
-← Reverse direction	<<	<<
-
-(Back of Car)	<<	<<
-
-LEFT arrow/button is pressed:
-(Left Side Wheels/DriverSide)
-    <<		<<
-![rc car top view]    
-(https://www.google.com/imgres?imgurl=http%3A%2F%2Fmembers.tripod.com%2Fkennys_rc%2FChassis2.jpg&imgrefurl=http%3A%2F%2Fmembers.tripod.com%2Fkennys_rc%2FContents.htm&docid=7-5j22T3vaZUZM&tbnid=OkgrOYINKJi65M%3A&vet=1&w=460&h=261&bih=688&biw=1280&ved=0ahUKEwjD4r3C6vzgAhVEKa0KHX86BhIQMwhNKA0wDQ&iact=c&ictx=1)
-    >>		>>
-(Right side wheels/PassengerSide)
-RIGHT arrow/button is pressed:
-(Left Side Wheels/DriverSide)
-     >>	          >>
-
-     <<             <<
-(RIght side wheels/passengerside)
-
 
 # Technologies
 * React.js - Build page layout and design
