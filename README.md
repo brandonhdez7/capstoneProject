@@ -6,37 +6,41 @@ from the phyiscal buttons on the keyboard and also the camera mount can be contr
 via keyboard buttons. 
 
 # Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Getting started, the Raspberry Pi can be powered up by a powerbank.
+1. Turn on Power Source to boot up Raspberry Pi. 
+2. SSH into the Raspberry Pi through the terminal window with the command:
+    * ssh pi@raspberrypi.local, or ssh@["ip address"] if ip address is known.
+3. To start node program within Raspberry Pi:
+    * cd ~/Documents/projects/Capstoneproject
+    * sudo node index.js
 
-# Prerequisites
-What things you need to install the software and how to install them
 
-# Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+# Description
 
-Say what the step will be
+## Operation
+When first landing on home page, user can have option to register and/or login. Once
+user is logged-in, there's an option to "Connect" to the car on the page. Clicking 
+"Connect" will bring user to an interface with feed from the Raspberry Pi Camera and 
+displays of direction buttons. The buttons are un-clickable but will highlight when 
+either of the Arrow Keys or WASD Keys are pressed. 
 
-Give the example
-And repeat
+## Functionality
 
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+### Car Movement
+Using the arrow keys on the keyboard:
+* UP arrow drives the car foward
+* DOWN arrow drives the car in reverse
+* RIGHT rotates the car to the right/clockwise
+* LEFT rotates the car to the left/counterclockwise
 
-# Running the tests
-Explain how to run the automated tests for this system
-
-# Break down into end to end tests
-Explain what these tests test and why
-
-Give an example
-And coding style tests
-Explain what these tests test and why
-
-Give an example
-# Deployment
-Add additional notes about how to deploy this on a live system
-
+### Camera Mount
+The Pi Camera is mounted and operated by two servo drivers
+It's controlled by the "QWASD" keys:
+* W - Moves camera UP
+* S - Moves camera DOWN
+* D - Pans camera to the RIGHT
+* A - Pans camera to the LEFT
+* Q - Resets camera postion to center/home 
 
 # Technologies
 * React.js - Build page layout and design
