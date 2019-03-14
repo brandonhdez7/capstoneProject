@@ -27,7 +27,11 @@ function MoreDescription(props){
                 </div>
                 <div className="text1">
                     <p>Setting up your RC car couldn't be more easy with our help.
-                         You're able to modified your directionals with our Javascript code as simple as just copying and pasting. </p>
+                         You're able to modified your directionals with our Javascript 
+                         code as simple as just copying and pasting. The code provides the ability for you to movie to 
+                         any direction you like. Also if you have a pi camera connected to it, we have given you the 
+                         code to control it.
+                        </p>
                 </div>
             </div>
         </div>
