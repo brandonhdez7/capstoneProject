@@ -143,7 +143,7 @@ class ConnectToCar extends Component{
                         <img src="/Images/ps4_controller.png" />
                     </div> */}
                     <div className='cameraFeed'>
-                        <img src="http://10.150.50.100:8080/?action=stream"/>
+                        <img src="http://127.0.0.1:8080/?action=stream"/>
                     </div>
                     <div className="carButtons">
                         <div className="left1">
@@ -164,7 +164,7 @@ class ConnectToCar extends Component{
                         </div>
 
                     </div>
-                    <script src="http://10.150.50.100:8000/socket.io/socket.io.js"></script>
+                    <script src="http://127.0.0.1:8000/socket.io/socket.io.js"></script>
                 </div>   
         )
     }
